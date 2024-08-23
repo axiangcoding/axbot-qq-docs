@@ -1,0 +1,50 @@
+site_name: AXBot QQ机器人
+site_url: https://axiangcoding.github.io/axbot-qq-docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: images/favicon.ico
+  custom_dir: overrides
+  language: zh
+  font: false
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    # - navigation.tabs
+    - navigation.expand
+    # - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - social
+    - announce.dismiss
+    - navigation.footer
+
+nav:
+  - index.md
+  - report.md
+  - 用户指南:
+      - user-guide/how-to-use.md
+  - 数据介绍:
+      - data-intro/index.md
+  - sponsor.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
