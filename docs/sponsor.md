@@ -8,7 +8,11 @@
 
 ## 赞助方式
 
+AXBot 目前只支持唯一的赞助方式，即爱发电。
 
+[跳转到爱发电首页](https://ifdian.net/a/axbot?tab=home){ .md-button .md-button--primary }
+
+虽然我们十分乐于见到用户赞助 AXBot 机器人，但是我们希望您能注意阅读爱发电页面上的赞助说明，以免产生不必要的误解。
 
 ## 赞助者特权
 

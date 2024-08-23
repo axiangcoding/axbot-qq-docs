@@ -27,7 +27,6 @@ theme:
   features:
     # - navigation.tabs
     - navigation.expand
-    # - navigation.tracking
     - navigation.top
     - search.suggest
     - social
@@ -39,12 +38,28 @@ nav:
   - report.md
   - 用户指南:
       - user-guide/how-to-use.md
+  - 命令列表:
+      - command-list/base-cmd.md
+      - command-list/funny-cmd.md
+      - command-list/wt-cmd.md
   - 数据介绍:
-      - data-intro/index.md
+      - data-intro/wt-data.md
   - sponsor.md
 
 markdown_extensions:
+  - def_list
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
