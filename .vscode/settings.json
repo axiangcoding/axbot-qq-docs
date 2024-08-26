@@ -1,0 +1,6 @@
+{
+    "makefile.configureOnOpen": false,
+    "markdownlint.config": {
+        "MD007": { "indent": 4 },
+    }
+}
