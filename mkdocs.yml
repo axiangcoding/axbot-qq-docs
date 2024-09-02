@@ -42,6 +42,7 @@ nav:
       - command-list/base-cmd.md
       - command-list/funny-cmd.md
       - command-list/wt-cmd.md
+      - command-list/qq-group.md
   - 数据介绍:
       - data-intro/wt-data.md
   - roadmap.md
