@@ -44,7 +44,7 @@ nav:
       - command-list/wt-cmd.md
       - command-list/qq-group.md
   - 数据介绍:
-      - data-intro/wt-data.md
+      - data-intro/wt-player-data.md
   - roadmap.md
   - sponsor.md
 
