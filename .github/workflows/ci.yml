@@ -40,6 +40,9 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: site
+          path: site
+      - run: |
+          ls -la
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
