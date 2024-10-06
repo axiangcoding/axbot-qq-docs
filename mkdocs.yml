@@ -1,6 +1,10 @@
 site_name: AXBot QQ机器人
 site_url: https://axiangcoding.github.io/axbot-qq-docs
 
+repo_url: https://github.com/axiangcoding/axbot-qq-docs/
+edit_uri: blob/main/docs/
+
+
 theme:
   name: material
   logo: assets/logo.png
@@ -32,6 +36,7 @@ theme:
     - social
     - announce.dismiss
     - navigation.footer
+    - content.action.edit
 
 nav:
   - index.md
