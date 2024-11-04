@@ -4,7 +4,6 @@ site_url: https://axiangcoding.github.io/axbot-qq-docs
 repo_url: https://github.com/axiangcoding/axbot-qq-docs/
 edit_uri: blob/main/docs/
 
-
 theme:
   name: material
   logo: assets/logo.png
@@ -48,6 +47,7 @@ nav:
       - command-list/funny-cmd.md
       - command-list/wt-cmd.md
       - command-list/qq-group.md
+      - command-list/subscribe-cmd.md
   - 数据介绍:
       - data-intro/wt-player-data.md
   - roadmap.md
