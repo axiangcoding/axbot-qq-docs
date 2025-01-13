@@ -39,9 +39,11 @@ theme:
 
 nav:
   - index.md
+  - sponsor.md
   - report.md
   - 用户指南:
       - user-guide/how-to-use.md
+      - user-guide/axbot-credit.md
   - 命令列表:
       - command-list/base-cmd.md
       - command-list/funny-cmd.md
@@ -51,7 +53,7 @@ nav:
   - 数据介绍:
       - data-intro/wt-player-data.md
   - roadmap.md
-  - sponsor.md
+
 
 markdown_extensions:
   - def_list

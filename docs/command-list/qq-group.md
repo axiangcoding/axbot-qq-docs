@@ -11,17 +11,17 @@
 @AXBot /群状态
 ```
 
-## 用户状态
+## 个人状态
 
 !!! success "本命令可在私聊中使用"
 
-查看用户状态。返回的信息中存在`user_openid`字段，可以用来找到用户。
+查看个人状态。返回的信息中存在`user_openid`字段，可以用来找到用户。
 
 !!! tip "关于 user_openid"
     AXBot无法得知QQ用户的QQ号，仅能通过`user_openid`来定位用户，如果你的问题和具体的用户相关，请提供`user_openid`。
 
 ```bash title="命令格式"
-@AXBot /用户状态
+@AXBot /个人状态
 ```
 
 ## 群管理
