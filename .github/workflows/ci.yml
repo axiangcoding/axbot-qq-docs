@@ -84,6 +84,6 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H 8.155.35.166 >> ~/.ssh/known_hosts
+          ssh-keyscan -H ${{ secrets.SELFHOST_SERVER_IP }} >> ~/.ssh/known_hosts
       - run: |
-          ssh root@8.155.35.166 'cd /root/docker/axbot-qq-docs && docker-compose pull && docker-compose up -d'
+          ssh root@${{ secrets.SELFHOST_SERVER_IP }} 'cd /root/docker/axbot-qq-docs && docker-compose pull && docker-compose up -d'
